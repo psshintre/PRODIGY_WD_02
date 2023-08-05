@@ -1,0 +1,45 @@
+/* (A) WHOLE PAGE */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #b3bfce;
+  }
+  footer{
+    margin-top: 9%;
+}
+/* h1{
+    align-items: center;
+    margin-top: 100px;
+} */
+  /* (B) CONTAINER */
+  #stopwatch {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 320px;
+    margin: 200px 500px ;
+    
+  }
+  
+  /* (C) TIME */
+  #sw-time {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background: #443c3c;
+    color: #fff;
+  }
+  
+  /* (D) BUTTONS */
+  #sw-rst, #sw-go {
+    box-sizing: border-box;
+    width: 50%;
+    cursor: pointer;
+    padding: 20px 0;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+  }
+  #sw-rst { background-color: #a32208; }
+  #sw-go { background-color: #20a308; }
